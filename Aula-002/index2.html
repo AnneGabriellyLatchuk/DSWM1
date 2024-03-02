@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Aula 2</title>
+</head>
+<body>
+    <header>
+        <h1>Aula 2</h1>
+        <h2>Usando tags</h2>
+    </header>
+    <main>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/cabana_P.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/cabana_M.png" type="image/png">
+            <img src="imagens/cabana_G.png" alt="Cabana no Outono">
+        </picture>
+
+        <h1>Áudio no site</h1>
+            <h2>Reproduzindo áudio</h2>
+            <audio preload="metadata" autoplay controls loop>
+                <source src="audio/town-10169.mp3" type="audio/mp3"></audio>
+
+        <h1>Video</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam neque vel adipisci repudiandae qui sapiente ullam iure voluptatem porro quidem id, aliquid vero molestias? Praesentium officiis laborum nemo iure blanditiis.</p>
+
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/KbmBoQQF134?si=4YbSXPLhhR2mNZsn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <form>
+                    <label for="nome">
+                        Nome:
+                        <input type="text" id="nome" name="nome" required>
+                    </label>
+
+                    <label for="email">
+                        Email:
+                        <input type="text" id="email" name="email" required>
+                    </label>
+                    <label for="senha">
+                        Senha:
+                        <input type="text" id="senha" name="senha" required>
+                    </label>
+                    <button type="submit">Enviar</button>
+                </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
