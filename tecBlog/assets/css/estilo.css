@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+#area-cabeçalho{
+    background-color: #f7b600;
+    padding: 10px;
+    text-align: center;
+}
+
+#area-logo{
+    padding: 10px;
+}
+
+#area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0;
+    padding: 15px;
+}
+
+area-postagem{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e6e6e6;
+}
+
+.conteudo-lateral{
+    background-color: #e6e6e6;
+    padding: 10px;
+    margin: 20px;
+}
+
+.postagem-lateral{
+    font-size: 8px;
+    padding: 5px;
+    border-bottom: 1px dotted #cac6c6;
+}
+
+#rodape{
+    text-align: center;
+    padding: 15px;
+    background-color: #cac6c6;
+}
