@@ -30,7 +30,7 @@ body{
     padding: 15px;
 }
 
-area-postagem{
+#area-postagem{
     width: 660px;
     float: left;
 }
@@ -59,7 +59,58 @@ area-postagem{
 }
 
 #rodape{
+    clear: both;
     text-align: center;
     padding: 15px;
     background-color: #cac6c6;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area-cabeçalho a:link, #area-cabeçalho a:visited{
+    color: #f4f0f0;
+    padding: 8px 12px;
+}
+
+#area-cabeçalho a:hover{
+    color: #f7b600;
+    background-color: #f4f0f0;
+    text-decoration: none;
+}
+
+h1{
+    color: #090101;
+    font-size: 20px;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: 565656;
+    background-color: #f4f0f0;
+    padding: 5px;
+}
+
+.branco{
+    color: #f4f0f0;
+}
+
+.data-postagem{
+    font-size: 10px;
+    border-bottom: 1px solid #f4f0f0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
 }
