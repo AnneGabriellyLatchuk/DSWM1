@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio 1</title>
+</head>
+<body>
+        <h1>Exercício 1</h1>
+
+        <p>Escreva um programa em JavaScript que exiba na tela o maior número entre dois números fornecidos pelo usuário.</p>
+
+        <div class="container">
+            <img src="vaquinha.jpeg" alt="vaquinha">
+        </div>
+        <br>
+        
+        <script>
+            var n1 = Number.parseFloat(prompt('Digite um número: '));
+            var n2 = Number.parseFloat(prompt('Digite um segundo número: '));
+
+            if (isNaN(n1) || isNaN(n2)) {
+                window.alert('Por favor, digite números válidos.');
+            } else {
+                var maior = n1 > n2 ? n1 : n2;
+                window.alert('O maior número entre ' + n1 + ' e ' + n2 + ' é: ' + maior);
+}
+        </script>
+</body>
+</html>

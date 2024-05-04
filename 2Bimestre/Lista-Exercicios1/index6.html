@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 6</title>
+</head>
+<body>
+    <h1>Execício 6</h1>
+        <p>Escreva um programa em JavaScript que exiba na tela a soma dos elementos de uma matriz.</p>
+
+        <div class="container">
+            <img src="vaquinha.jpeg" alt="vaquinha">
+        </div>
+        <br>
+
+        <script>
+            // Definindo uma matriz
+            const matriz = [
+                [1, 2, 3],
+                [4, 5, 6],
+                [7, 8, 9]
+            ];
+
+            // Função para calcular a soma dos elementos da matriz
+            function somaMatriz(matriz) {
+                var soma = 0;
+
+                // Iterando sobre a matriz para somar cada elemento
+                for (var i = 0; i < matriz.length; i++) {
+                    for (var j = 0; j < matriz[i].length; j++) {
+                        soma += matriz[i][j];
+                    }
+                }
+
+                return soma;
+            }
+
+            // Chamando a função e exibindo a soma dos elementos da matriz
+            const resultado = somaMatriz(matriz);
+            document.write("A soma dos elementos da matriz é:", resultado);
+        </script>
+</body>
+</html>

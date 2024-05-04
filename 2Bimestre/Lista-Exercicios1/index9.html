@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio 9</title>
+</head>
+<body>
+    <h1>Exercicio 9</h1>
+        <p>Escreva um programa em JavaScript que exiba na tela o maior número de um vetor.</p>
+            
+            <div class="container">
+                <img src="vaquinha.jpeg" alt="vaquinha">
+            </div>
+            <br>
+
+            <script>
+                var vetor = [1, 2, 3, 4, 5, 20, 7, 8, 9, 10];
+                var maior = vetor[0];
+                for (var i = 1; i < vetor.length; i++) {
+                    if (vetor[i] > maior) {
+                        maior = vetor[i];
+                    }
+                }
+                document.write("O maior número do vetor é: " + maior);
+            </script>
+</body>
+</html>

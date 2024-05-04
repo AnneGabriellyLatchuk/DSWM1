@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <h1>Exercício 4</h1>
+        <p>Escreva um programa em JavaScript que exiba na tela a média dosnúmeros de um vetor.</p>
+
+        <div class="container">
+            <img src="vaquinha.jpeg" alt="vaquinha">
+        </div>
+        <br>
+        
+            <script>
+                
+                var vetor = [10, 5, 8, 9, 7]; // Vetor de números
+
+
+                var soma = 0; // Variável para armazenar a soma dos números
+
+
+                for (var i = 0; i < vetor.length; i++) { // Loop para somar os números do vetor
+                    soma += vetor[i];
+                }
+
+
+                var media = soma / vetor.length; // Cálculo da média
+                document.write('A média dos números do vetor é:  ' + media);
+            </script>
+</body>
+</html>

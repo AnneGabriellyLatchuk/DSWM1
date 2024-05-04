@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio 7</title>
+</head>
+<body>
+    <h1>Exercicio 7</h1>
+        <p>Escreva um programa em JavaScript que exiba na tela o fatorial de um número fornecido pelo usuário.</p>
+
+        <div class="container">
+            <img src="vaquinha.jpeg" alt="vaquinha">
+        </div>
+        <br>
+        
+        <script>
+            var numero = parseInt(prompt("Digite um número:"));
+            var fatorial = 1;
+            for (var i = 1; i <= numero; i++) {
+                fatorial *= i;
+            }
+            document.write("O fatorial de " + numero + " é: " + fatorial);
+        </script>
+        
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <h1>Exercício 3</h1>
+        <p>Escreva um programa em JavaScript que exiba na tela uma mensagem de acordo com a nota do usuário. Se a nota for menor do que 6, exiba "Reprovado". Se a nota for maior ou igual a 6 e menor do que 8, exiba "Aprovado". Se a nota for maior ou igual a 8 exiba "Aprovado com louvor".</p>
+
+        <div class="container">
+            <img src="vaquinha.jpeg" alt="vaquinha">
+        </div>
+        <br>
+        
+        <script>
+            var nota = Number.parseFloat(prompt('Digite a nota do aluno: '));
+
+            if (isNaN(nota)) { /*verifica se o valor digitado não é um número*/
+                window.alert('Por favor, digite uma nota válida.');
+            } else {
+                    if (nota < 6) {
+                        window.alert('Reprovado');
+                    } else if (nota >= 6 && nota < 8) { /*nota menor ou igual a 6 e nota menor que 8*/
+                        window.alert('Aprovado');
+                    } else {
+                        window.alert('Aprovado com louvor');
+                    }
+            }
+        </script>
+</body>
+</html>

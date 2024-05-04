@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Exemplo 8</title>
+</head>
+<body>
+    <h1>Exemplo 8</h1>
+        <p>Escreva um programa em JavaScript que exiba na tela uma mensagemde acordo com a escolha do usuário em um menu de opções. O menudeve ter as opções "1. Opção 1", "2. Opção 2" e "3. Opção 3". Se o usuárioescolher a opção 1, exiba "Opção 1 escolhida". Se o usuário escolher aopção 2, exiba "Opção 2 escolhida". Se o usuário escolher a opção 3,exiba "Opção 3 escolhida". Se o usuário escolher uma opção inválida, exiba "Opção inválida".</p>
+
+            <div class="container">
+                <img src="vaquinha.jpeg" alt="vaquinha">
+            </div>
+            <br>
+
+            <script>
+                var opcao = prompt("Escolha uma opção:\n1. Opção 1\n2. Opção 2\n3. Opção 3");
+                if (opcao == 1) {
+                    document.write("Opção 1 escolhida");
+                } else if (opcao == 2) {
+                    document.write("Opção 2 escolhida");
+                } else if (opcao == 3) {
+                    document.write("Opção 3 escolhida");
+                } else {
+                    document.write("Opção inválida");
+                }
+            </script>
+</body>
+</html>
